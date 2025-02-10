@@ -40,13 +40,23 @@ Constraints:
 s consists only of lowercase English letters and digits.
 The input is generated such that it is possible to delete all digits.
 */
-<<<<<<< Updated upstream
+
+
+/*
+Approach:
+1. Use a stack to store the characters of the string.
+2. If the character is a digit, pop the stack.
+3. If the character is not a digit, push it onto the stack.
+4. After processing all characters, the stack will contain the characters in reverse order.
+5. Pop the stack and append the characters to the result string.
+6. Return the result string.
+*/
+
+
 Soln: 
-=======
 #include <string>
 #include <stack>
 using namespace std;
->>>>>>> Stashed changes
 
 class Solution {
 public:
@@ -67,13 +77,3 @@ public:
         return st;
     }
 };
-
-/*
-Approach:
-1. Use a stack to store the characters of the string.
-2. If the character is a digit, pop the stack.
-3. If the character is not a digit, push it onto the stack.
-4. After processing all characters, the stack will contain the characters in reverse order.
-5. Pop the stack and append the characters to the result string.
-6. Return the result string.
-*/
