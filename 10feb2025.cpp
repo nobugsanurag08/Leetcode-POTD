@@ -1,3 +1,4 @@
+Clear Digits Link - https://leetcode.com/problems/clear-digits/description/?envType=daily-question&envId=2025-02-10
 /*
 3174. Clear Digits Link - https://leetcode.com/problems/clear-digits/description/?envType=daily-question&envId=2025-02-10
 Ques: You are given a string s.
@@ -39,6 +40,8 @@ Constraints:
 s consists only of lowercase English letters and digits.
 The input is generated such that it is possible to delete all digits.
 */
+Soln: 
+
 class Solution {
 public:
     string clearDigits(string s) {
