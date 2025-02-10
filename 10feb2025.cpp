@@ -40,7 +40,13 @@ Constraints:
 s consists only of lowercase English letters and digits.
 The input is generated such that it is possible to delete all digits.
 */
+<<<<<<< Updated upstream
 Soln: 
+=======
+#include <string>
+#include <stack>
+using namespace std;
+>>>>>>> Stashed changes
 
 class Solution {
 public:
