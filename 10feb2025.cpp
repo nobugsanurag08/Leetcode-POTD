@@ -53,10 +53,7 @@ Approach:
 */
 
 
-Soln: 
-#include <string>
-#include <stack>
-using namespace std;
+Only Functional Soln: 
 
 class Solution {
 public:
