@@ -1,5 +1,9 @@
 # Leetcode-POTD 
-## From 10 Feb 2025
+## From 9th Feb 2025
+* Problem With LINK
+* Approch
+* HINT
+* Soln
 
 
 
